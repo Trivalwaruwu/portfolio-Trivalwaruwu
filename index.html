@@ -1,0 +1,1486 @@
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="Portofolio Trival Votaroma Waruwu, mahasiswa Sistem Informasi Universitas Pamulang yang tertarik pada web development dan mobile development.">
+  <meta name="keywords" content="Trival Votaroma Waruwu, web developer, mobile developer, Laravel, PHP, Flutter, Dart, Sistem Informasi">
+  <meta name="author" content="Trival Votaroma Waruwu">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Trival Votaroma Waruwu | Portfolio">
+  <meta property="og:description" content="Information Systems Student · Web & Mobile Development">
+  <meta property="og:image" content="https://trivalwaruwu.github.io/assets/images/foto-trival.jpg">
+
+  <title>Trival Votaroma Waruwu | Portfolio</title>
+
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- BOOTSTRAP ICONS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+  <!-- TEMA DISIMPAN -->
+  <script>
+    (function () {
+      try {
+        const savedTheme = localStorage.getItem('portfolio-theme');
+
+        document.documentElement.setAttribute(
+          'data-theme',
+          savedTheme === 'light' ? 'light' : 'dark'
+        );
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+
+  <!-- CUSTOM CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="canonical" href="https://trivalwaruwu.github.io/">
+</head>
+
+<body>
+
+  <!-- NOISE TEXTURE -->
+  <div class="site-noise" aria-hidden="true"></div>
+
+  <!-- ANIMATED BACKGROUND -->
+  <div class="ambient-background" aria-hidden="true">
+    <span class="ambient-orb ambient-orb-one"></span>
+    <span class="ambient-orb ambient-orb-two"></span>
+    <span class="ambient-orb ambient-orb-three"></span>
+  </div>
+
+  <!-- =====================================
+       NAVBAR
+  ====================================== -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top site-nav" aria-label="Navigasi utama">
+
+    <div class="container">
+
+      <!-- BRAND -->
+      <a class="navbar-brand brand-mark" href="#home" aria-label="Kembali ke Home">
+        <span class="brand-bracket">&lt;</span>TVW<span class="brand-bracket">/&gt;</span>
+      </a>
+
+      <!-- MOBILE TOGGLE -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNav"
+        aria-controls="mainNav"
+        aria-expanded="false"
+        aria-label="Buka navigasi">
+
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- NAVIGATION -->
+      <div class="collapse navbar-collapse" id="mainNav">
+
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+
+          <li class="nav-item">
+            <a class="nav-link active" href="#home">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#journey">Journey</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+
+          <!-- DARK / LIGHT MODE -->
+          <li class="nav-item ms-lg-2">
+            <button
+              class="theme-toggle"
+              id="themeToggle"
+              type="button"
+              aria-label="Ganti ke tema terang">
+
+              <i class="bi bi-sun-fill" id="themeIcon"></i>
+              <span id="themeText">Light Mode</span>
+
+            </button>
+          </li>
+
+          <!-- LINKEDIN -->
+          <li class="nav-item ms-lg-2">
+            <a
+              class="btn btn-nav"
+              href="https://www.linkedin.com/in/trivalvotaromawaruwu/"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              Let's connect
+              <i class="bi bi-arrow-up-right"></i>
+
+            </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <main>
+
+    <!-- =====================================
+         HERO SECTION
+    ====================================== -->
+
+    <section class="hero-section section-pad" id="home">
+
+      <div class="container position-relative">
+
+        <div class="hero-orb orb-one"></div>
+        <div class="hero-orb orb-two"></div>
+
+        <div class="row align-items-center gy-5 position-relative hero-row">
+
+          <!-- HERO TEXT -->
+          <div class="col-lg-7 order-2 order-lg-1">
+
+            <div class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              AVAILABLE FOR INTERNSHIP 2027
+            </div>
+
+            <p class="hero-kicker">Hello, I'm</p>
+
+            <h1 class="hero-title">
+              Trival Votaroma<br>
+              <span>Waruwu.</span>
+            </h1>
+
+            <h2 class="hero-role">
+              Information Systems Student
+              <span class="role-divider">·</span>
+              Web &amp; Mobile Development
+            </h2>
+
+            <p class="hero-description">
+              Saya senang membangun aplikasi dan mengeksplorasi teknologi
+              untuk menghadirkan solusi digital yang bermanfaat. Saat ini
+              saya terus mengembangkan kemampuan di bidang web dan mobile development.
+            </p>
+
+            <!-- HERO BUTTONS -->
+            <div class="hero-actions d-flex flex-wrap gap-3">
+
+              <a class="btn btn-primary-custom" href="#projects">
+                Lihat Proyek
+                <i class="bi bi-arrow-right"></i>
+              </a>
+
+              <a
+                class="btn btn-outline-custom"
+                href="assets/documents/CV-Trival-Waruwu.pdf"
+                download>
+
+                <i class="bi bi-download"></i>
+                Download CV
+
+              </a>
+
+              <a class="btn btn-outline-custom" href="#contact">
+                Hubungi Saya
+              </a>
+
+            </div>
+
+            <!-- SOCIAL MEDIA -->
+            <div class="hero-socials d-flex align-items-center gap-3">
+
+              <span class="social-label">TEMUKAN SAYA</span>
+
+              <a
+                href="https://github.com/Trivalwaruwu"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub">
+
+                <i class="bi bi-github"></i>
+              </a>
+
+              <a
+                href="https://www.linkedin.com/in/trivalvotaromawaruwu/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn">
+
+                <i class="bi bi-linkedin"></i>
+              </a>
+
+            </div>
+          </div>
+
+
+<!-- HERO ID CARD -->
+<div class="col-lg-5 order-1 order-lg-2">
+
+  <div class="hero-visual mx-auto">
+
+    <div class="portrait-glow"></div>
+
+    <!-- ANIMASI TALI, KARTU, DAN BADGE -->
+    <div class="lanyard-swing">
+
+      <!-- TALI GANTUNGAN HITAM -->
+      <div class="lanyard-strap">
+        <span class="lanyard-print">TRIVAL WARUWU</span>
+      </div>
+
+      <!-- PENGAIT LOGAM -->
+      <div class="lanyard-hook">
+        <span class="lanyard-ring"></span>
+        <span class="lanyard-hook-body"></span>
+      </div>
+
+      <!-- KARTU PROFIL -->
+      <div class="portrait-frame badge-card">
+
+        <div class="portrait-topline">
+          <span>PROFILE / 01</span>
+          <span class="live-dot"></span>
+        </div>
+
+        <picture class="portrait-picture">
+          <source
+            srcset="assets/images/foto-trival.jpg"
+            type="image/jpeg">
+
+          <img
+            src="assets/images/foto-placeholder.svg"
+            alt="Foto Trival Votaroma Waruwu"
+            class="portrait-img">
+        </picture>
+
+        <div class="portrait-caption">
+          <span class="caption-name">TRIVAL V. WARUWU</span>
+          <span class="caption-role">INFORMATION SYSTEMS</span>
+        </div>
+
+      </div>
+
+      <!-- FLOATING BADGE KIRI -->
+      <div class="floating-chip chip-code">
+        <i class="bi bi-code-slash"></i>
+        <span>Building<br>digital ideas</span>
+      </div>
+
+      <!-- FLOATING BADGE KANAN -->
+      <div class="floating-chip chip-location">
+        <i class="bi bi-geo-alt"></i>
+        <span>Tangerang,<br>Indonesia</span>
+      </div>
+
+    </div>
+    <!-- PENUTUP LANYARD-SWING -->
+
+    <!-- NOMOR PROFIL TETAP -->
+    <div class="visual-index">
+      01 <span>/</span> 05
+    </div>
+
+  </div>
+  <!-- PENUTUP HERO-VISUAL -->
+
+</div>
+<!-- PENUTUP COL-LG-5 -->
+
+      
+        </div>
+        <!-- PENUTUP HERO ROW -->
+
+        <!-- SCROLL CUE -->
+        <a class="scroll-cue" href="#about">
+          <span class="scroll-line"></span>
+          SCROLL TO EXPLORE
+        </a>
+
+      </div>
+      <!-- PENUTUP CONTAINER -->
+
+    </section>
+
+
+    <!-- =====================================
+         ABOUT SECTION
+    ====================================== -->
+
+    <section class="about-section section-pad" id="about">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <span class="section-index">01 / ABOUT</span>
+
+          <h2>
+            Kenali <span>saya lebih dekat.</span>
+          </h2>
+
+          <p>
+            Sedikit cerita tentang perjalanan dan hal yang sedang saya kembangkan.
+          </p>
+
+        </div>
+
+
+        <div class="row align-items-center gy-5 mt-2">
+
+          <!-- ABOUT PHOTO -->
+          <div class="col-lg-5 reveal">
+
+            <div class="about-photo-wrap">
+
+              <div class="about-photo-backdrop"></div>
+
+              <picture>
+
+                <source
+                  srcset="assets/images/foto-trival.jpg"
+                  type="image/jpeg">
+
+                <img
+                  src="assets/images/foto-placeholder.svg"
+                  alt="Foto profil Trival Votaroma Waruwu"
+                  class="about-photo"
+                  loading="lazy">
+
+              </picture>
+
+              <div class="photo-stamp">
+                <span>CURIOUS</span>
+                <span>BY NATURE.</span>
+                <i class="bi bi-stars"></i>
+              </div>
+
+            </div>
+          </div>
+
+
+          <!-- ABOUT CONTENT -->
+          <div class="col-lg-7 reveal">
+
+            <div class="about-copy">
+
+              <p class="about-lead">
+                Saya adalah mahasiswa
+                <strong>Sistem Informasi di Universitas Pamulang</strong>
+                yang memiliki ketertarikan pada pengembangan aplikasi web dan mobile.
+              </p>
+
+              <p>
+                Saya menikmati proses belajar mulai dari memahami kebutuhan,
+                merancang tampilan, mengembangkan fitur, hingga menghubungkan
+                aplikasi dengan database. Beberapa teknologi yang sedang saya
+                gunakan antara lain PHP, Laravel, MySQL, Flutter, dan Dart.
+              </p>
+
+              <p>
+                Melalui setiap proyek, saya ingin terus meningkatkan kemampuan
+                problem solving, menulis kode yang terstruktur, dan membangun
+                produk digital yang mudah digunakan.
+              </p>
+
+
+              <!-- ABOUT FACTS -->
+              <div class="about-facts row g-3">
+
+                <div class="col-sm-6">
+
+                  <div class="fact-card">
+
+                    <i class="bi bi-mortarboard"></i>
+
+                    <div>
+
+                      <span>PENDIDIKAN</span>
+
+                      <strong>Universitas Pamulang</strong>
+
+                      <small>S1 Sistem Informasi</small>
+
+                    </div>
+
+                  </div>
+                </div>
+
+
+                <div class="col-sm-6">
+
+                  <div class="fact-card">
+
+                    <i class="bi bi-geo-alt"></i>
+
+                    <div>
+
+                      <span>LOKASI</span>
+
+                      <strong>Kota Tangerang</strong>
+
+                      <small>Banten, Indonesia</small>
+
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+              <a
+                class="text-link mt-4 d-inline-flex"
+                href="https://github.com/Trivalwaruwu"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                Lihat GitHub saya
+                <i class="bi bi-arrow-up-right"></i>
+
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =====================================
+         SKILLS SECTION
+    ====================================== -->
+
+    <section class="skills-section section-pad" id="skills">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <span class="section-index">02 / SKILLS</span>
+
+          <h2>
+            Tools yang saya <span>gunakan.</span>
+          </h2>
+
+          <p>
+            Teknologi yang pernah saya pelajari dan gunakan dalam latihan
+            maupun pengembangan proyek.
+          </p>
+
+        </div>
+
+
+        <div class="row g-3 skills-grid mt-2">
+
+          <!-- PHP -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-filetype-php"></i>
+              </div>
+
+              <h3>PHP</h3>
+              <p>Backend Development</p>
+
+            </div>
+          </div>
+
+
+          <!-- LARAVEL -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-layers"></i>
+              </div>
+
+              <h3>Laravel</h3>
+              <p>Web Framework</p>
+
+            </div>
+          </div>
+
+
+          <!-- MYSQL -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-database"></i>
+              </div>
+
+              <h3>MySQL</h3>
+              <p>Database</p>
+
+            </div>
+          </div>
+
+
+          <!-- FLUTTER -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-phone"></i>
+              </div>
+
+              <h3>Flutter</h3>
+              <p>Mobile Development</p>
+
+            </div>
+          </div>
+
+
+          <!-- DART -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-braces"></i>
+              </div>
+
+              <h3>Dart</h3>
+              <p>Programming Language</p>
+
+            </div>
+          </div>
+
+
+          <!-- HTML CSS -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-filetype-html"></i>
+              </div>
+
+              <h3>HTML &amp; CSS</h3>
+              <p>Frontend Development</p>
+
+            </div>
+          </div>
+
+
+          <!-- JAVASCRIPT -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-filetype-js"></i>
+              </div>
+
+              <h3>JavaScript</h3>
+              <p>Web Interaction</p>
+
+            </div>
+          </div>
+
+
+          <!-- GIT -->
+          <div class="col-6 col-md-4 col-lg-3 reveal">
+
+            <div class="skill-card">
+
+              <div class="skill-icon">
+                <i class="bi bi-git"></i>
+              </div>
+
+              <h3>Git &amp; GitHub</h3>
+              <p>Version Control</p>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <p class="skills-note">
+          <i class="bi bi-info-circle"></i>
+          Daftar ini dapat diperbarui seiring bertambahnya pengalaman dan kemampuan.
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =====================================
+         PROJECTS SECTION
+    ====================================== -->
+
+    <section class="projects-section section-pad" id="projects">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <span class="section-index">03 / SELECTED WORK</span>
+
+          <h2>
+            Proyek yang pernah <span>saya kerjakan.</span>
+          </h2>
+
+          <p>
+            Beberapa contoh latihan dan proyek pengembangan aplikasi.
+          </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-2">
+
+
+          <!-- PROJECT 1: LARAVEL -->
+          <div class="col-lg-6 reveal">
+
+            <article class="project-card h-100">
+
+              <div class="project-art art-laravel">
+
+                <div class="art-browser">
+
+                  <div class="browser-bar">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <span>trival-store / dashboard</span>
+                  </div>
+
+                  <div class="browser-content">
+
+                    <div class="mock-side"></div>
+
+                    <div class="mock-main">
+
+                      <div class="mock-heading"></div>
+
+                      <div class="mock-stats">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                      </div>
+
+                      <div class="mock-table">
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                        <b></b>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                <span class="art-label">WEB APPLICATION</span>
+
+              </div>
+
+
+              <div class="project-body">
+
+                <div class="project-meta">
+
+                  <span>01 — WEB DEVELOPMENT</span>
+                  <span>Laravel / MySQL</span>
+
+                </div>
+
+                <h3>Web Store &amp; Product Management</h3>
+
+                <p>
+                  Aplikasi web dengan fitur pengelolaan produk, dashboard,
+                  dan keranjang belanja. Dikembangkan menggunakan Laravel
+                  dengan pemisahan backend dan frontend.
+                </p>
+
+                <div class="tag-list">
+                  <span>Laravel</span>
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>REST API</span>
+                </div>
+
+                <a
+                  class="project-link"
+                  href="https://github.com/Trivalwaruwu"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  Lihat repositori
+                  <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+              </div>
+            </article>
+          </div>
+
+
+          <!-- PROJECT 2: FLUTTER -->
+          <div class="col-lg-6 reveal">
+
+            <article class="project-card h-100">
+
+              <div class="project-art art-flutter">
+
+                <div class="phone-mock">
+
+                  <div class="phone-notch"></div>
+
+                  <div class="phone-header">
+                    <span>Apotek Sehat</span>
+                    <i class="bi bi-bell"></i>
+                  </div>
+
+                  <div class="phone-welcome">
+                    Kelola obat lebih mudah
+                  </div>
+
+                  <div class="phone-search">
+                    <i class="bi bi-search"></i>
+                    Cari obat...
+                  </div>
+
+                  <div class="phone-medicine">
+
+                    <i class="bi bi-capsule-pill"></i>
+
+                    <span>
+                      <b>Daftar Obat</b>
+                      <small>Kelola stok &amp; data</small>
+                    </span>
+
+                  </div>
+
+                  <div class="phone-medicine">
+
+                    <i class="bi bi-clock-history"></i>
+
+                    <span>
+                      <b>Riwayat Aktivitas</b>
+                      <small>Catatan perubahan</small>
+                    </span>
+
+                  </div>
+
+                  <div class="phone-nav">
+                    <i class="bi bi-house"></i>
+                    <i class="bi bi-capsule"></i>
+                    <i class="bi bi-person"></i>
+                  </div>
+
+                </div>
+
+                <span class="art-label">MOBILE APPLICATION</span>
+
+              </div>
+
+
+              <div class="project-body">
+
+                <div class="project-meta">
+
+                  <span>02 — MOBILE DEVELOPMENT</span>
+                  <span>Flutter / SQLite</span>
+
+                </div>
+
+                <h3>Apotek Sehat</h3>
+
+                <p>
+                  Aplikasi manajemen obat berbasis Android dengan fitur login,
+                  pengelolaan data obat, detail obat, dan riwayat aktivitas
+                  menggunakan SQLite.
+                </p>
+
+                <div class="tag-list">
+                  <span>Flutter</span>
+                  <span>Dart</span>
+                  <span>SQLite</span>
+                  <span>REST API</span>
+                </div>
+
+                <a
+                  class="project-link"
+                  href="https://github.com/Trivalwaruwu"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  Lihat repositori
+                  <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+              </div>
+            </article>
+          </div>
+
+
+          <!-- PROJECT 3: DATABASE -->
+          <div class="col-lg-6 reveal">
+
+            <article class="project-card h-100">
+
+              <div class="project-art art-sql">
+
+                <div class="sql-window">
+
+                  <div class="sql-top">
+                    <span>SQL EDITOR</span>
+                    <span>PostgreSQL</span>
+                  </div>
+
+                  <div class="sql-code">
+
+                    <p><em>WITH</em> kunjungan_dokter <em>AS</em> (</p>
+                    <p>&nbsp;&nbsp;<b>SELECT</b> id_dokter, COUNT(*)</p>
+                    <p>&nbsp;&nbsp;<b>FROM</b> kunjungan</p>
+                    <p>&nbsp;&nbsp;<b>GROUP BY</b> id_dokter</p>
+                    <p>)</p>
+                    <p><b>SELECT</b> * <b>FROM</b> kunjungan_dokter;</p>
+
+                  </div>
+
+                  <div class="sql-result">
+                    <span>QUERY EXECUTED</span>
+                    <i class="bi bi-check-circle-fill"></i>
+                  </div>
+
+                </div>
+
+                <span class="art-label">DATABASE PROJECT</span>
+
+              </div>
+
+
+              <div class="project-body">
+
+                <div class="project-meta">
+
+                  <span>03 — DATABASE</span>
+                  <span>PostgreSQL / SQL</span>
+
+                </div>
+
+                <h3>Database Rumah Sakit</h3>
+
+                <p>
+                  Latihan perancangan dan pengolahan database rumah sakit,
+                  termasuk penggunaan JOIN, CTE, serta set operators
+                  untuk mengambil informasi data.
+                </p>
+
+                <div class="tag-list">
+                  <span>PostgreSQL</span>
+                  <span>SQL</span>
+                  <span>DBeaver</span>
+                  <span>CTE</span>
+                </div>
+
+                <a
+                  class="project-link"
+                  href="https://github.com/Trivalwaruwu"
+                  target="_blank"
+                  rel="noopener noreferrer">
+
+                  Lihat GitHub
+                  <i class="bi bi-arrow-up-right"></i>
+
+                </a>
+
+              </div>
+            </article>
+          </div>
+
+
+          <!-- MORE PROJECTS -->
+          <div class="col-lg-6 reveal">
+
+            <div class="project-more-card h-100">
+
+              <span class="section-index">MORE ON GITHUB</span>
+
+              <i class="bi bi-github more-github"></i>
+
+              <h3>
+                Masih banyak hal<br>
+                yang ingin dibangun.
+              </h3>
+
+              <p>
+                Kunjungi GitHub untuk melihat kode, eksperimen, dan proyek
+                lain yang sedang saya kembangkan.
+              </p>
+
+              <a
+                class="btn btn-outline-custom"
+                href="https://github.com/Trivalwaruwu"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                Kunjungi GitHub
+                <i class="bi bi-arrow-up-right"></i>
+
+              </a>
+
+            </div>
+          </div>
+
+        </div>
+
+
+        <p class="project-disclaimer">
+
+          <i class="bi bi-info-circle"></i>
+
+          Kartu proyek di atas merupakan ringkasan proyek yang pernah dikerjakan.
+          Tautan repositori saat ini mengarah ke profil GitHub; ganti dengan
+          URL repositori spesifik setelah proyek dipublikasikan.
+
+        </p>
+
+      </div>
+    </section>
+
+
+    <!-- =====================================
+         JOURNEY SECTION
+    ====================================== -->
+
+    <section class="journey-section section-pad" id="journey">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <span class="section-index">04 / CURRENT JOURNEY</span>
+
+          <h2>
+            Terus belajar, <span>terus berkembang.</span>
+          </h2>
+
+          <p>
+            Fokus saya saat ini adalah memperkuat fondasi
+            dan membangun pengalaman melalui proyek.
+          </p>
+
+        </div>
+
+
+        <div class="journey-panel reveal">
+
+          <div class="journey-line"></div>
+
+
+          <!-- EDUCATION -->
+          <div class="journey-item">
+
+            <span class="journey-dot"></span>
+
+            <div>
+
+              <span class="journey-label">EDUCATION</span>
+
+              <h3>S1 Sistem Informasi</h3>
+
+              <p>
+                Universitas Pamulang · Saat ini
+              </p>
+
+            </div>
+          </div>
+
+
+          <!-- CURRENT FOCUS -->
+          <div class="journey-item">
+
+            <span class="journey-dot"></span>
+
+            <div>
+
+              <span class="journey-label">CURRENT FOCUS</span>
+
+              <h3>Web &amp; Mobile Development</h3>
+
+              <p>
+                Mengembangkan aplikasi, mempelajari praktik pemrograman,
+                dan mengerjakan proyek.
+              </p>
+
+            </div>
+          </div>
+
+
+          <!-- NEXT GOAL -->
+          <div class="journey-item">
+
+            <span class="journey-dot"></span>
+
+            <div>
+
+              <span class="journey-label">NEXT GOAL</span>
+
+              <h3>Internship 2027</h3>
+
+              <p>
+                Terbuka untuk kesempatan magang dan kolaborasi
+                di bidang teknologi informasi.
+              </p>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =====================================
+         CERTIFICATES SECTION
+    ====================================== -->
+
+    <section class="certificates-section section-pad" id="certificates">
+
+      <div class="container">
+
+        <div class="section-heading reveal">
+
+          <span class="section-index">05 / CERTIFICATES</span>
+
+          <h2>
+            Sertifikat dan <span>pencapaian saya.</span>
+          </h2>
+
+          <p>
+            Beberapa sertifikat pelatihan, seminar, workshop,
+            dan kegiatan akademik yang pernah saya ikuti.
+          </p>
+
+        </div>
+
+
+        <div class="row g-4 mt-2">
+
+
+          <!-- CERTIFICATE 1 -->
+          <div class="col-md-6 col-lg-4 reveal">
+
+            <div class="certificate-card h-100">
+
+              <div class="certificate-pdf-preview">
+
+                <canvas
+                  data-pdf="assets/sertifikat/sertifikat-1.pdf"
+                  hidden>
+                </canvas>
+
+                <p class="pdf-preview-message">
+                  Memuat sertifikat...
+                </p>
+
+              </div>
+
+
+              <div class="certificate-content">
+
+                <span class="certificate-category">
+                  SEMINAR
+                </span>
+
+                <h3>Nama Sertifikat Pertama</h3>
+
+                <p>
+                  Sertifikat partisipasi kegiatan seminar.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3">
+
+                  <a
+                    href="assets/sertifikat/sertifikat-1.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-link">
+
+                    <i class="bi bi-eye"></i>
+                    Lihat PDF
+
+                  </a>
+
+                  <a
+                    href="assets/sertifikat/sertifikat-1.pdf"
+                    download
+                    class="certificate-link">
+
+                    <i class="bi bi-download"></i>
+                    Download
+
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- CERTIFICATE 2 -->
+          <div class="col-md-6 col-lg-4 reveal">
+
+            <div class="certificate-card h-100">
+
+              <div class="certificate-pdf-preview">
+
+                <canvas
+                  data-pdf="assets/sertifikat/sertifikat-2.pdf"
+                  hidden>
+                </canvas>
+
+                <p class="pdf-preview-message">
+                  Memuat sertifikat...
+                </p>
+
+              </div>
+
+
+              <div class="certificate-content">
+
+                <span class="certificate-category">
+                  WORKSHOP
+                </span>
+
+                <h3>Nama Sertifikat Kedua</h3>
+
+                <p>
+                  Sertifikat partisipasi kegiatan workshop.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3">
+
+                  <a
+                    href="assets/sertifikat/sertifikat-2.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-link">
+
+                    <i class="bi bi-eye"></i>
+                    Lihat PDF
+
+                  </a>
+
+                  <a
+                    href="assets/sertifikat/sertifikat-2.pdf"
+                    download
+                    class="certificate-link">
+
+                    <i class="bi bi-download"></i>
+                    Download
+
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- CERTIFICATE 3 -->
+          <div class="col-md-6 col-lg-4 reveal">
+
+            <div class="certificate-card h-100">
+
+              <div class="certificate-pdf-preview">
+
+                <canvas
+                  data-pdf="assets/sertifikat/sertifikat-3.pdf"
+                  hidden>
+                </canvas>
+
+                <p class="pdf-preview-message">
+                  Memuat sertifikat...
+                </p>
+
+              </div>
+
+
+              <div class="certificate-content">
+
+                <span class="certificate-category">
+                  ACADEMIC
+                </span>
+
+                <h3>Nama Sertifikat Ketiga</h3>
+
+                <p>
+                  Sertifikat kegiatan akademik dan pengembangan diri.
+                </p>
+
+                <div class="d-flex flex-wrap gap-3">
+
+                  <a
+                    href="assets/sertifikat/sertifikat-3.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="certificate-link">
+
+                    <i class="bi bi-eye"></i>
+                    Lihat PDF
+
+                  </a>
+
+                  <a
+                    href="assets/sertifikat/sertifikat-3.pdf"
+                    download
+                    class="certificate-link">
+
+                    <i class="bi bi-download"></i>
+                    Download
+
+                  </a>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =====================================
+         CONTACT SECTION
+    ====================================== -->
+
+    <section class="contact-section section-pad" id="contact">
+
+      <div class="container">
+
+        <div class="contact-panel reveal">
+
+          <div class="contact-glow"></div>
+
+          <span class="section-index">06 / CONTACT</span>
+
+          <h2>
+            Mari terhubung dan<br>
+            <span>membangun sesuatu.</span>
+          </h2>
+
+          <p>
+            Terbuka untuk diskusi, kolaborasi proyek, kesempatan belajar,
+            maupun peluang magang.
+          </p>
+
+
+          <!-- CONTACT BUTTONS -->
+          <div class="contact-actions">
+
+            <a
+              class="btn btn-primary-custom"
+              href="mailto:trivalwaruwu906@gmail.com">
+
+              <i class="bi bi-envelope"></i>
+              Email Me
+
+            </a>
+
+
+            <a
+              class="btn btn-outline-custom"
+              href="https://www.linkedin.com/in/trivalvotaromawaruwu/"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              <i class="bi bi-linkedin"></i>
+              LinkedIn
+
+            </a>
+
+
+            <a
+              class="btn btn-outline-custom"
+              href="https://github.com/Trivalwaruwu"
+              target="_blank"
+              rel="noopener noreferrer">
+
+              <i class="bi bi-github"></i>
+              GitHub
+
+            </a>
+
+
+            <a
+              class="btn btn-outline-custom"
+              href="https://wa.me/6282223982803?text=Halo%20Trival%2C%20saya%20melihat%20portofolio%20Anda."
+              target="_blank"
+              rel="noopener noreferrer">
+
+              <i class="bi bi-whatsapp"></i>
+              WhatsApp
+
+            </a>
+
+          </div>
+
+
+          <!-- CONTACT PROFILE -->
+          <div class="contact-photo-row">
+
+            <picture>
+
+              <source
+                srcset="assets/images/foto-trival.jpg"
+                type="image/jpeg">
+
+              <img
+                src="assets/images/foto-placeholder.svg"
+                alt="Foto Trival Votaroma Waruwu"
+                class="contact-avatar"
+                loading="lazy">
+
+            </picture>
+
+
+            <div>
+
+              <strong>Trival Votaroma Waruwu</strong>
+
+              <span>Information Systems Student</span>
+
+            </div>
+
+
+            <span class="contact-available">
+              <i></i>
+              Open to opportunities
+            </span>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- =====================================
+       FOOTER
+  ====================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+
+      <!-- FOOTER BRAND -->
+      <a class="navbar-brand brand-mark" href="#home">
+
+        <span class="brand-bracket">&lt;</span>TVW<span class="brand-bracket">/&gt;</span>
+
+      </a>
+
+
+      <!-- COPYRIGHT -->
+      <p>
+        Designed &amp; built by Trival Votaroma Waruwu ·
+        <span id="currentYear">2026</span>
+      </p>
+
+
+      <!-- FOOTER LINKS -->
+      <div class="footer-links">
+
+        <a
+          href="https://github.com/Trivalwaruwu"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="GitHub">
+
+          <i class="bi bi-github"></i>
+
+        </a>
+
+
+        <a
+          href="https://www.linkedin.com/in/trivalvotaromawaruwu/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn">
+
+          <i class="bi bi-linkedin"></i>
+
+        </a>
+
+
+        <a href="#home" aria-label="Kembali ke atas">
+
+          <i class="bi bi-arrow-up"></i>
+
+        </a>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- =====================================
+       JAVASCRIPT LIBRARIES
+  ====================================== -->
+
+  <!-- BOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- PDF.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+
+  <!-- CUSTOM JAVASCRIPT -->
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
